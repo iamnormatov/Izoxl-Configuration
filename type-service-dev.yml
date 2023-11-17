@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: type-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: azizjon
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+#  servlet:
+#    context-path: /type-service
+  port: 8020
