@@ -11,6 +11,6 @@ spring:
       ddl-auto: create-drop
     show-sql: true
 server:
-  servlet:
-    context-path: /category-service
+#  servlet:
+#    context-path: /category-service
   port: 8000
