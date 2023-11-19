@@ -11,6 +11,6 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-#  servlet:
-#    context-path: /type-service
+  servlet:
+    context-path: /type-service
   port: 8020

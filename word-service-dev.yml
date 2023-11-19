@@ -11,6 +11,6 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-#  servlet:
-#    context-path: /word-service
+  servlet:
+    context-path: /word-service
   port: 8030
